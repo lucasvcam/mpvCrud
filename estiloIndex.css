@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #74b9ff;
+    display: flex;
+}
+.header{
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    background:#6c5ce7;
+    justify-content: center;
+    position: fixed;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4rem;
+    border-right: 5px solid #6c5ce7;
+}
+.botao-menu{
+    background-color: #6c5ce7;
+    margin: 1.7rem;
+    font-size: 2.813rem;
+    border: 1px solid #6c5ce7;
+    transition: 0.5s;
+}
+.textobtn{
+    color: white;
+    text-decoration: none;
+}
+.botao-menu:hover{
+    background: #81ecec;
+    border:#6c5ce7
+}
+.opcoes a:hover{
+    background-color: #6c5ce7;
+    transition: 0.4s;
+}
+
+.titulo{
+    color: white;
+    text-transform: uppercase;
+}
+
+.formulario{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left:auto;
+    margin-right: auto;
+    width: 31.25rem;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.campos input[type="text"]{
+    background: none;
+    border: 2px solid #6c5ce7;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.campos input[type="text"]:focus{
+    width: 280px;
+}
+.but[type="submit"]{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #6c5ce7;
+padding: 10px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition: 0.25s;
+width: 70px;
+}
+.but[type="submit"]:hover{
+    width: 140px;
+    background: #81ecec;
+    border: #81ecec;
+}
