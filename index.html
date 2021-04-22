@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloIndex.css">
+    <title>CRUD-Agenda</title>
+</head>
+<body>
+    <header class="header"><h1 class="titulo">Agenda de contatos</h1></header>
+    <div class="menu">
+            <button class="botao-menu"><a class="textobtn" href="#">Incluir</a></button>
+            <button class="botao-menu"><a class="textobtn" href="#">Alterar</a></button>
+            <button class="botao-menu"><a class="textobtn" href="#">Excluir</a></button>
+            <button class="botao-menu"><a class="textobtn" href="#">Consultar</a></button>
+            <button class="botao-menu"><a class="textobtn" href="#">Sair</a></button>
+    </div>
+
+    <div class="formulario">
+    <form class="campos" action="index.html" method="POST">
+        <h2 class="titulo">Preencha os dados</h2>
+        <input type="text" name="" placeholder="Nome">
+        <input type="text" name="" placeholder="Sobrenome" required>
+        <h3 class="titulo">Endereço</h3>
+        <div>
+        <input type="radio" id="Rua"name="Rua" value="rua" placeholder="Rua">
+        <label for="Rua">Rua</label>
+        <input type="radio" name="Avenida" value="avenida" placeholder="Avenida">
+        <label for="Avenida">Avenida</label>
+        </div>
+        <input type="text" name="" placeholder="Nome da rua">
+        <input type="text" name="" placeholder="Bairro" required>
+        <input type="text" name="" placeholder="Cidade"required>
+        <input type="text" name="" placeholder="UF" required>
+        <input type="text" name="" placeholder="CEP"required>
+        <button class="but" type="submit">Enviar</button>
+    </form>
+    </div>
+</body>
+</html>
